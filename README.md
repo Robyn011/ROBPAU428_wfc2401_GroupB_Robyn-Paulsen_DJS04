@@ -17,7 +17,7 @@ The "Book Connect" project provides an opportunity to refine a fully functional 
 
 
 #### In Progress:
-- **Focus** : book preview feature
-- **Ensure that the component is self-contained, with its own HTML, CSS, and JavaScript.(NB!!!)(Basically, it needs it’s own webpage and whenever you want to close the website, you need to go back to the original page.)**
+- I completed all my tasks
+
 
 
