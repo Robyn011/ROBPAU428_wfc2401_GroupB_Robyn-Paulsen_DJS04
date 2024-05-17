@@ -20,6 +20,12 @@ function createBookPreview(book) {
         </div>
     `;
 
+    // Add click event listener to navigate to the book preview page
+    element.addEventListener('click', () => {
+        const previewPageUrl = `book-preview.html?id=${book.id}`; // Create the URL for the book preview page with book ID
+        window.location.href = previewPageUrl; // Navigate to the book preview page
+    });
+
     return element; // Return the created element
 }
 
