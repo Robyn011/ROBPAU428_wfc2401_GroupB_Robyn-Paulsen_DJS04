@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Preview</title>
+    <link rel="stylesheet" href="book-preview.css"> <!-- Link to the CSS file for styling -->
+</head>
+<body>
+    <div id="book-preview" class="preview">
+        <img id="preview-image" class="preview__image" src="" alt="Book Image" />
+        <div class="preview__info">
+            <h3 id="preview-title" class="preview__title"></h3>
+            <div id="preview-author" class="preview__author"></div>
+            <p id="preview-description" class="preview__description"></p>
+            <p id="preview-published" class="preview__published"></p>
+        </div>
+        <button id="back-button">Back</button>
+    </div>
+    <script src="book-preview.js" type="module"></script> <!-- Link to the JavaScript file for functionality -->
+
+    <script type="module" src="./scripts.js"></script>
+    <script type="module" src="./data.js"></script>
+</body>
+</html>
